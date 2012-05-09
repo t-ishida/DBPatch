@@ -11,8 +11,6 @@ $new{$_->{name}} = $_ for analyzeTable ( join "", <$new_file> );
 $old{$_->{name}} = $_ for analyzeTable ( join "", <$old_file> );
 close $old_file;
 close $new_file;
-print Dumper \%old;
-exit(0);
 ##
 ## とりあえずガチマッチじゃなくて追加だけ対応
 ##
