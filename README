@@ -1,0 +1,16 @@
+NAME: DBPatch 
+AUTHOR: t_ishida
+VERSION: 0.00001
+DESCRIPTION:
+MySQLというかphpMyAdminが吐いたCREATE TABLEを比較して、
+パッチを自動生成するもの。
+サクっと比較するだけのハックなつもりが思った以上にSQL文の解析って面倒で、
+こんなんなっちゃって手に負えなくなったので、
+ここでメンテしながらなんとかしていくし、
+目に止まった誰かがなんとかしてくれないかな公開
+FILES: これだけ
+ENV: Perl5以上なら, でも4以下でも多分
+INSTALL: コピる
+LICENS: MIT License
+
+
